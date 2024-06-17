@@ -1,3 +1,4 @@
+#s24010
 def sayhello():
     print("こんにちは")
 
