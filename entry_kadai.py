@@ -1,12 +1,12 @@
 #24010
-#エントリーウィジェットで受け付けた金額を税込み(10%)として出力
+#受け取った名前に挨拶をする
 
 import tkinter as tk #tkinterをtkと略して使用する
 
 def dispLabel():
     #entryメゾットを使用して入力を受け付け変数aに格納
     a = entry.get()
-    print(f"は{type(a)}") #ログの出方
+    print(f"aは{type(a)}") #ログの出方
     lbl.config(text=f"{a}さんこんんちは")
 
 
