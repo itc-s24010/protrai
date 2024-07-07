@@ -1,0 +1,5 @@
+ myenv/:
+  __pycache__/
+  .pyw
+  .exe
+  time_kadai.pyw
